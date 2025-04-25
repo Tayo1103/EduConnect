@@ -40,5 +40,11 @@
     <main class="container mx-auto px-4">
         @yield('content')
     </main>
+
+    <footer class="mt-10 bg-white border-t py-4">
+        <div class="container mx-auto px-4 text-center text-sm text-gray-600">
+            &copy; {{ date('Y') }} EduConnect. All rights reserved.
+        </div>
+    </footer>
 </body>
 </html>
